@@ -1,0 +1,23 @@
+{
+ "id": "l3-bench",
+ "name": "L3-Bench / Safe-SDL",
+ "kind": "benchmark",
+ "url": "https://arxiv.org/abs/2610.36761",
+ "code": "",
+ "venue": "Zhang et al., Oct 2026",
+ "summary": "Proposes a framework for self-driving laboratories that comprises an episode-level evaluation protocol for physical outcomes, safety violations and fault recovery, and a runtime gate based on schema checks and signal temporal logic. The abstract reports no experimental results.",
+ "numbers": "Specification only",
+ "domain": ["lab_bio"],
+ "arch": ["vla", "modular_stack"],
+ "failure": ["accident"],
+ "harm": ["local_harm"],
+ "layer": ["action", "monitor"],
+ "fidelity": ["open_loop"],
+ "avail": "paper",
+ "cx": 3,
+ "dex": 3,
+ "cog": 2,
+ "bottleneck": "both",
+ "xr": 1,
+ "why": {"cx": "Whole lab episodes, including long waits.", "dex": "Lab manipulation plus instrument APIs.", "cog": "Measurement-conditioned procedure.", "xr": "Lab safety violations; no misuse or dual-use layer."}
+}

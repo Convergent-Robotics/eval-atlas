@@ -1,0 +1,8 @@
+{
+ "id": "g5",
+ "order": 5,
+ "title": "Real-hardware evaluation and certification",
+ "body": "Of the 23 surveyed works that involve real hardware, most report a single validation run on one arm alongside a simulated benchmark. RoboHarm, which uses Inspect Robots as its harness, combines public code, frontier models and a real arm, and is the nearest approximation to a standing real-robot evaluation suite. The authors of Inspect Robots report nearly 100,000 downloads in three months. We found no benchmark designed to certify a unit rather than to compare models. Limits of Statistical Assurance shows that finite testing cannot exclude adversarial behaviour that begins after certification, and evaluates monitoring with revocation as an alternative. SimuGuard attributes a proportion of simulated failures to the physics engine, which bears on the interpretation of simulation-only results. CAIBench RCTF2, in which the best agent solves 22% of challenges against containerised robot software, is the only dangerous-capability evaluation we identified with robots as the target.",
+ "map": {"rows": "fidelity", "cols": "kind"},
+ "links": {"Limits of Statistical Assurance": "https://arxiv.org/abs/2610.18948", "RoboHarm": "roboharm", "Inspect Robots": "inspect-robots", "SimuGuard": "https://arxiv.org/abs/2610.41857", "CAIBench RCTF2": "rctf2"}
+}

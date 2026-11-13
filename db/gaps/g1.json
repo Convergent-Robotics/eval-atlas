@@ -1,0 +1,8 @@
+{
+ "id": "g1",
+ "order": 1,
+ "title": "Limited overlap between embodied and catastrophic-risk evaluations",
+ "body": "There are currently few evaluations that both consider catastrophic outcomes and test on embodied systems. ABC-Bench is the only surveyed work that measures a catastrophic capability through to physical execution. In ABC-Bench, agents wrote scripts that a liquid-handling robot executed to assemble a benign DNA construct, while the dual-use steps were evaluated digitally. Nine further works address precursors of catastrophic pathways, comprising text and code evaluations, cyber attacks on robot software, jailbreak demonstrations, a runtime governance check and an insider attack on a language-model robot team. Closed-loop manipulation benchmarks, including recent work on real hardware, address everyday accidents or deliberate harm through a single robot. Evaluations that place physical AI systems in catastrophic-risk scenarios would show the mechanisms by which AI could cause catastrophic physical harm.",
+ "map": {"rows": "fidelity", "cols": "xr"},
+ "links": {"ABC-Bench": "abc-bench"}
+}

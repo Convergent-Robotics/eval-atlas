@@ -1,0 +1,23 @@
+{
+ "id": "limits-assurance",
+ "name": "Limits of Statistical Assurance",
+ "kind": "study",
+ "url": "https://arxiv.org/abs/2610.18948",
+ "code": "",
+ "venue": "Singh et al., Oct 2026",
+ "summary": "Characterises the limits of finite safety assessment against an adversary that preserves unattacked behaviour until certification, and evaluates monitoring with permanent revocation in simulated collaboration and agent benchmarks.",
+ "numbers": "RoCo collaboration: violations in 34 of 36 post-certification episodes; monitoring 12.00→3.81 per 24 tasks, at a cost in tasks done",
+ "domain": ["general"],
+ "arch": ["multi_robot", "llm_planner"],
+ "failure": ["adversarial", "oversight", "monitor"],
+ "harm": ["loss_of_control"],
+ "layer": ["oversight", "monitor"],
+ "fidelity": ["closed_sim"],
+ "avail": "paper",
+ "cx": 3,
+ "dex": 1,
+ "cog": 3,
+ "bottleneck": "cognition",
+ "xr": 2,
+ "why": {"cx": "Multi-agent collaboration over repeated episodes.", "dex": "Simulated collaboration.", "cog": "Strategic timing against an evaluator.", "xr": "Evaluation-gaming and certification failure, with a strong assumed adversary."}
+}

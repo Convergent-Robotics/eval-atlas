@@ -1,0 +1,8 @@
+{
+ "id": "g9",
+ "order": 9,
+ "title": "Limited coverage of human oversight at scale",
+ "body": "Whether people can still direct and correct robots once decisions and physical work are delegated to them at scale has received little attention. For gradual disempowerment, RoboWorld measures capability at economically valuable physical work, but does not address the threat model directly. For concentration of power, we identified only the text-based questions of ForesightSafety Bench. These threat models may not reduce to a per-model benchmark. Their measurement may require evaluation at the level of fleets or deployments, for which we found no existing instrument.",
+ "map": {"rows": "harm", "cols": "fidelity", "focusRow": "disempowerment"},
+ "links": {"gradual disempowerment": "https://arxiv.org/abs/2501.16946", "concentration of power": "https://www.forethought.org/research/ai-enabled-coups-how-a-small-group-could-use-ai-to-seize-power", "ForesightSafety Bench": "foresight-bench", "RoboWorld": "roboworld"}
+}

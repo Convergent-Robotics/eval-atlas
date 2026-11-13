@@ -1,0 +1,8 @@
+{
+ "id": "g6",
+ "order": 6,
+ "title": "Absence of a safety layer for laboratory robots",
+ "body": "AutoBio, LabUtopia, Pipette, DexBioLab, Labference and EmbodiedLab measure laboratory capability in simulation and, in some cases, on real arms. BEAKER tests from images and video whether models identify equipment, reagents, experimental states and safety requirements, and order procedure steps, without execution. LABSHIELD, a laboratory safety benchmark, and ABC-Bench, which addresses dual-use biological capability, are not executed on the simulation platforms. The addition of hazards and dual-use requests to an existing laboratory simulator would connect these lines of work.",
+ "map": {"rows": "domain", "cols": "failure", "focusRow": "lab_bio"},
+ "links": {"ABC-Bench": "abc-bench", "AutoBio": "autobio", "LabUtopia": "labutopia", "Pipette": "pipette", "DexBioLab": "dexbiolab", "Labference": "labference", "EmbodiedLab": "embodiedlab", "LABSHIELD": "labshield", "BEAKER": "beaker"}
+}

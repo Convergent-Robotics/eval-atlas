@@ -1,0 +1,8 @@
+{
+ "id": "g8",
+ "order": 8,
+ "title": "Limited coverage of humanoids and multi-robot systems",
+ "body": "Work on world models has grown, whereas humanoids and multi-robot systems remain sparsely covered. Recent studies demonstrate closed-loop attacks on world action models, in simulation and on physical robots (TAPDreamer, PASA-KV), and WorldFailBench reports substantial gaps in the ability of seven world models to reproduce policy failures. Humanoids appear in ReactHuman and IsaacLabEvalTasks (simulation), WorldFailBench (real G1 tasks), SIREN (an attack on a real humanoid), EgoSafetyBench (video from a humanoid viewpoint) and the human-humanoid orchestrator benchmark (text layer only). We found no safety benchmark that evaluates a learned policy on a real humanoid. Work on multi-robot systems consists of attack and adversary studies, such as InfectBot and Lie Rarely, Lie Big, and does not measure fleet behaviour at scale.",
+ "map": {"rows": "arch", "cols": "fidelity"},
+ "links": {"TAPDreamer": "tapdreamer", "PASA-KV": "pasa-kv", "WorldFailBench": "worldfailbench", "ReactHuman": "reacthuman", "SIREN": "siren", "InfectBot": "infectbot", "Lie Rarely, Lie Big": "lie-rarely", "IsaacLabEvalTasks": "isaaclab-eval", "EgoSafetyBench": "egosafety", "human-humanoid orchestrator benchmark": "humanoid-orch"}
+}

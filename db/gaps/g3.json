@@ -1,0 +1,8 @@
+{
+ "id": "g3",
+ "order": 3,
+ "title": "Limited evidence that safety judgements carry through to physical action",
+ "body": "Whether refusal at the language level prevents the corresponding physical action has been measured directly only recently, and predominantly for language-model agents. RoboHarm varies the interface for a fixed model: The authors report refusal of 73% in text and 18–25% under robot control, with comparable refusal on a real arm and in simulation (18% of 612 trials and 19%, respectively). OSMA-Bench and AgentSafe report a corresponding gap between recognition and action in household settings, and CAPSafe a gap between recognition and planning in a text-based simulator. Refuses When Asked reports that a pre-motion query would have stopped 15 of 15 hazardous instructions, although the sample is small and the evaluation counterfactual. Whether these findings extend to end-to-end VLAs, which have no language-level refusal, remains an open question. Two recent studies bear on it: OpenVLA executed the prohibited task in 79% of rollouts with negated instructions (Localizing the Goal Representation of a VLA), and in a reasoning VLA, visual perturbations changed the action while the rationale remained identical word for word (TNAS). Beyond Behaviour, a short paper, reports internal registration of hazards without a corresponding behavioural response.",
+ "map": {"rows": "layer", "cols": "arch"},
+ "links": {"RoboHarm": "roboharm", "CAPSafe": "capsafe", "OSMA-Bench": "osma-bench", "AgentSafe": "agentsafe", "Refuses When Asked": "refuses-asked", "Beyond Behaviour": "beyond-behaviour", "Localizing the Goal Representation of a VLA": "vla-negation", "TNAS": "tnas"}
+}

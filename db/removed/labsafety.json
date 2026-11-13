@@ -1,0 +1,23 @@
+{
+ "id": "labsafety",
+ "name": "LabSafety Bench",
+ "kind": "benchmark",
+ "url": "https://arxiv.org/abs/2410.14182",
+ "code": "https://github.com/YujunZhou/LabSafety-Bench",
+ "venue": "Zhou et al., Nature Machine Intelligence 2026",
+ "summary": "Evaluates laboratory hazard recognition, including image-based questions for vision-language models. The benchmark addresses accidents rather than misuse.",
+ "numbers": "765 multiple-choice questions (text and image), 404 scenarios, 3,128 open-ended tasks",
+ "domain": ["lab_bio"],
+ "arch": ["vlm_agent"],
+ "failure": ["accident"],
+ "harm": ["local_harm"],
+ "layer": ["recognition"],
+ "fidelity": ["qa"],
+ "avail": "open",
+ "cx": 1,
+ "dex": 0,
+ "cog": 2,
+ "bottleneck": "cognition",
+ "xr": 0,
+ "why": {"cx": "QA.", "dex": "No execution.", "cog": "Hazard recognition.", "xr": "Lab accidents."}
+}

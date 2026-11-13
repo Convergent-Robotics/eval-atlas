@@ -1,0 +1,23 @@
+{
+ "id": "labvla",
+ "name": "LabVLA",
+ "kind": "capability",
+ "url": "https://arxiv.org/abs/2606.13578",
+ "code": "https://github.com/zjunlp/LabVLA",
+ "venue": "Ren et al., 2026",
+ "summary": "Proposes LabVLA, a laboratory VLA model, and RoboGenesis, a simulated data engine, evaluated on LabUtopia and on four real Franka tasks of two to four skills.",
+ "numbers": "4 tasks; sim plus real Franka; vs π0.5 and DreamZero",
+ "domain": ["lab_bio"],
+ "arch": ["vla"],
+ "failure": [],
+ "harm": ["bio_uplift"],
+ "layer": ["action"],
+ "fidelity": ["closed_sim", "real"],
+ "avail": "open",
+ "cx": 2,
+ "dex": 3,
+ "cog": 1,
+ "bottleneck": "dexterity",
+ "xr": 1,
+ "why": {"cx": "2–4 skills per task.", "dex": "Lab manipulation.", "cog": "Minimal.", "xr": "Capability precursor for uplift."}
+}

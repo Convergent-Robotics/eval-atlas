@@ -1,0 +1,23 @@
+{
+ "id": "simuguard",
+ "name": "SimuGuard",
+ "kind": "study",
+ "url": "https://arxiv.org/abs/2610.41857",
+ "code": "https://github.com/ALEXander22568/simuguard",
+ "venue": "Zhou et al., Oct 2026",
+ "summary": "Presents an auditing plugin for LIBERO, RoboTwin, RoboCasa and RoboDojo that detects contact artefacts, and attributes object ejection on RoboTwin to a constant in the physics engine's collision detection.",
+ "numbers": "12 in 100 episodes affected, none after the fix; container tasks 89%→98%; LingBot-VA's 83.1% spans 75.8–98.5%",
+ "domain": ["general"],
+ "arch": ["vla", "world_model"],
+ "failure": [],
+ "harm": [],
+ "layer": ["action"],
+ "fidelity": ["closed_sim"],
+ "avail": "open",
+ "cx": 2,
+ "dex": 2,
+ "cog": 1,
+ "bottleneck": "dexterity",
+ "xr": 0,
+ "why": {"cx": "Existing benchmark tasks.", "dex": "Learned control.", "cog": "Not measured.", "xr": "Measures the instrument, not a risk."}
+}

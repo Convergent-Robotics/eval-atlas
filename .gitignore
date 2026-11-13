@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Secrets and deploy state (preview/ holds a Vercel OIDC token)
+.env*
+.vercel/
+preview/
+
+# Build outputs, regenerable from the scripts
+render/
+*.zip
+
+# Editor / OS
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp

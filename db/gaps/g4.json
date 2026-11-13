@@ -1,0 +1,8 @@
+{
+ "id": "g4",
+ "order": 4,
+ "title": "Absence of safety evaluations that combine dexterity and cognition",
+ "body": "Evaluations of vision-language and language-model agents typically abstract motion into primitives and test long-horizon planning capabilities, safety judgement and hazard understanding, whereas VLA benchmarks typically use short tabletop tasks with low cognitive demand. No current safety benchmark combines demanding manipulation with causal or strategic reasoning, so failures in realistic tasks cannot be attributed to either motor skill or judgement. The only entry demanding in both respects at the highest level, EmbodiedLab, is a capability suite without a safety measure. HazardArena, which matches motor demand across safe and unsafe scenarios, is the clearest controlled design we identified, and reports that improved motor training was associated with poorer judgement.",
+ "map": {"view": "bottleneck"},
+ "links": {"HazardArena": "hazardarena", "EmbodiedLab": "embodiedlab"}
+}

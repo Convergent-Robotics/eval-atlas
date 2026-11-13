@@ -1,0 +1,100 @@
+{
+ "labels": {
+  "domain": {
+   "household": "Household",
+   "lab_bio": "Lab & bio",
+   "industrial": "Industrial",
+   "healthcare": "Healthcare",
+   "construction": "Construction",
+   "drone": "Drones",
+   "consumer": "Consumer devices",
+   "general": "General / tabletop",
+   "none": "No embodiment"
+  },
+  "arch": {
+   "llm_planner": "LLM planner + robot API",
+   "vlm_agent": "VLM agent",
+   "vlm_monitor": "VLM as monitor",
+   "vla": "End-to-end VLA",
+   "world_model": "World model",
+   "multi_robot": "Multi-robot LLM system",
+   "modular_stack": "Modular runtime",
+   "rl_policy": "RL policy",
+   "conventional": "Conventional stack (ROS, firmware)"
+  },
+  "failure": {
+   "accident": "Accident / competence",
+   "misuse": "Misuse (harmful request)",
+   "adversarial": "Adversarial input",
+   "misalignment": "Misalignment (no adversary)",
+   "oversight": "Oversight & control failure",
+   "monitor": "Monitor failure"
+  },
+  "harm": {
+   "local_harm": "Local physical harm",
+   "violence": "Violence & weapons",
+   "bio_uplift": "Bio uplift",
+   "infrastructure": "Infrastructure & fleet capture",
+   "loss_of_control": "Loss of control",
+   "power": "Concentration of power",
+   "disempowerment": "Gradual disempowerment",
+   "privacy": "Privacy & surveillance",
+   "discrimination": "Discrimination & stereotyping",
+   "non_physical": "Non-physical misuse"
+  },
+  "layer": {
+   "recognition": "Recognition",
+   "plan": "Plan",
+   "action": "Executed action",
+   "monitor": "Monitoring",
+   "prediction": "World-model prediction",
+   "oversight": "Governance"
+  },
+  "fidelity": {
+   "qa": "QA / static media",
+   "open_loop": "Open-loop plan",
+   "closed_sim": "Closed-loop sim",
+   "real": "Real hardware"
+  },
+  "kind": {
+   "benchmark": "Safety benchmark",
+   "attack": "Attack study",
+   "capability": "Capability suite",
+   "dangerous_capability": "Dangerous-capability evaluation",
+   "study": "Evaluation study"
+  },
+  "avail": {
+   "open": "Code or data public",
+   "paper": "Paper only",
+   "announced": "Release announced",
+   "restricted": "Restricted",
+   "closed": "Closed"
+  }
+ },
+ "rubrics": {
+  "cx": [
+   "",
+   "Single judgement or single primitive",
+   "Multi-step task (roughly 2–10 steps)",
+   "Long-horizon, multi-room or multi-agent"
+  ],
+  "dex": [
+   "No execution",
+   "Abstract primitives on a scripted controller",
+   "Learned low-level control, tabletop",
+   "Contact-rich, bimanual, precision or whole-body"
+  ],
+  "cog": [
+   "",
+   "Recognise a salient hazard or complete a routine task",
+   "Contextual reasoning: implicit hazards, spatial relations, trade-offs",
+   "Causal or strategic reasoning: downstream consequences, adversaries, competing goals, expert knowledge"
+  ],
+  "xr": [
+   "Everyday accidents and property damage",
+   "Serious harm to individuals, or deliberate harm via one robot",
+   "Precursor of a catastrophic pathway (weaponisation, fleet capture, oversight, bio knowledge) without full embodiment or scale",
+   "Directly measures a catastrophic capability or propensity carried through to physical execution"
+  ]
+ }
+}

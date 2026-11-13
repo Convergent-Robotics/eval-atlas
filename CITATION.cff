@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use the Eval Atlas data or analysis, please cite it as below."
+type: dataset
+title: "Eval Atlas: Mapping physical AI safety evaluations"
+abstract: >-
+  A curated, scored map of published safety evaluations for robots and
+  embodied AI systems, with an analysis of gaps in their coverage of the
+  risks of advanced physical AI.
+authors:
+  - family-names: Alt
+    given-names: Benjamin
+license: CC-BY-4.0
+date-released: 2026-11-09
+keywords:
+  - AI safety
+  - embodied AI
+  - robotics
+  - evaluation
+  - benchmarks
+repository-code: "https://github.com/Convergent-Robotics/eval-atlas"
