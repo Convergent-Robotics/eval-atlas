@@ -4,6 +4,9 @@ A map of safety evaluations for robots and embodied AI: what they measure, which
 gaps are. Each evaluation is tagged by domain, architecture and threat model, and scored for task complexity,
 dexterity, cognition and relevance to catastrophic risk. A short list of gap findings sits on top of the data.
 
+- Live atlas: https://convergentrobotics.org/eval-atlas.html
+- Blog post on the method and the gaps: [Mapping physical AI safety evaluations](https://convergentrobotics.org/mapping-physical-ai-safety-evaluations.html)
+
 The atlas is a single static page, `docs/index.html`. Open it in a browser; it needs no server and no network.
 To publish it, enable GitHub Pages for this repository with source `main` and folder `/docs`.
 
