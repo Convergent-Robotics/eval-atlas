@@ -9,6 +9,8 @@
 <meta property="og:description" content="A map of safety evaluations for robots and embodied AI: what they measure, which systems they test, and where the gaps are.">
 <meta property="og:type" content="website">
 <meta name="color-scheme" content="light dark">
+<!-- This copy is the open-source example; search engines should index the maintained version. -->
+<link rel="canonical" href="https://convergentrobotics.org/eval-atlas.html">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16'%3E%3Crect width='16' height='16' rx='3' fill='%230f766e'/%3E%3Cpath d='M3 3h4v4H3zM9 3h4v4H9zM3 9h4v4H3z' fill='%23fff' opacity='.9'/%3E%3Cpath d='M9 9h4v4H9z' fill='%23fff' opacity='.4'/%3E%3C/svg%3E">
 <style>
 /* Eval Atlas: standalone page. No external assets; system fonts only.
@@ -184,12 +186,25 @@ table.heat .total{font:.75rem var(--mono);color:var(--fg-2);text-align:center}
 .rub{display:grid;grid-template-columns:2rem minmax(0,1fr);gap:.4rem 1rem;font-size:.95rem}
 .rub b{font:500 .95rem var(--mono);color:var(--accent)}
 
+/* Pointer to the maintained version */
+.live-banner{background:var(--accent);color:var(--bg)}
+.live-banner .wrap{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:.4rem 1rem;padding-block:.8rem;text-align:center}
+.live-banner p{margin:0;font-size:.95rem;font-weight:500}
+.live-banner a{color:var(--bg);font-weight:650;text-decoration:none;border:1.5px solid currentColor;border-radius:var(--radius);padding:.3rem .75rem;white-space:nowrap}
+.live-banner a:hover{color:var(--bg);background:rgba(255,255,255,.15)}
+
 footer{border-top:1px solid var(--line);padding:1.5rem 0 2.5rem;font-size:.85rem;color:var(--muted)}
 footer p{margin:0}
 </style>
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
+<aside class="live-banner" aria-label="Maintained version">
+  <div class="wrap">
+    <p>This is the open-source example build. The maintained, up-to-date Eval Atlas is at convergentrobotics.org.</p>
+    <a href="https://convergentrobotics.org/eval-atlas.html">Go to the live atlas &rarr;</a>
+  </div>
+</aside>
 <header class="topbar">
   <div class="wrap">
     <a class="brand" href="#map">
